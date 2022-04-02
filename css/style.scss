@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+  width: 80%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 0 0;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  background: #ddd;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  h1 {
+    padding-bottom: 15px;
+    font-size: 34px;
+    border-bottom: 1px solid #333;
+  }
+  #target {
+    margin-top: 175px;
+    font-size: 48px;
+  }
+  #result {
+    font-size: 48px;
+    margin-top: 40px;
+  }
+}
